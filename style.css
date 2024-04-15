@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.nav {
+    width: 100vw;
+    height: 50px;
+    font-family: cursive;
+    background-image: linear-gradient(150deg, rgb(238, 238, 238), rgb(238, 238, 238), red, green);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    position: cover;
+    position: fixed;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.wrd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+li:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
+img {
+    height: 50px;
+}
+
+.padng {
+    width: 50px;
+}
+
+.pfb {
+    width: 100vw;
+    height: 100vh;
+    filter: blur(3px);
+}
+
+.ontop {
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 230px;
+    margin-left: 550px;
+    color: rgb(14, 136, 16);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    padding-left: 10px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+    border: 3px solid black;
+}
+
+.monthly,
+.yearly,
+.onetime {
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.monthly:hover,
+.yearly:hover,
+.onetime:hover {
+    background: #afafe68a;
+}
+
+.kontakt {
+    text-decoration: none;
+    padding: 15px;
+    background: #658ea6;
+    position: sticky;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: blue;
+    font-size: 20px;
+}
+
+.kontakt:hover {
+    text-decoration: none;
+    padding: 15px;
+    background: #658ea6;
+    position: sticky;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+.padng1 {
+    height: 50px;
+}
+.dopimg{
+    width: 350px;
+    height: 300px;
+}
+
+.right{
+    margin-left: 705px;
+    position: relative;
+    bottom: 400px;
+}
+.right h4{
+    font-size: 30px;
+}
+.right iframe{
+    width: 600px;
+    height: 400px;
+}
+.dopimg{
+
+}
